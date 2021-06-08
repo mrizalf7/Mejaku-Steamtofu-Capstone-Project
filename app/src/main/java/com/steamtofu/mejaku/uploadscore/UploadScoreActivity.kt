@@ -4,9 +4,9 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
-//import androidx.activity.result.contract.ActivityResultContracts
 import com.steamtofu.mejaku.R
 import com.steamtofu.mejaku.databinding.ActivityUploadScoreBinding
 
@@ -21,6 +21,10 @@ class UploadScoreActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.btnChooseFile.setOnClickListener(this)
         binding.btnUpload.setOnClickListener(this)
+
+        supportActionBar?.title="Upload Score"
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     // using uri path to do something here
@@ -38,5 +42,14 @@ class UploadScoreActivity : AppCompatActivity(), View.OnClickListener {
                 Log.d("UPLOAD FILE", "onClick: UPLOADING FILE...")
             }
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.option_menu,menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return super.onSupportNavigateUp()
     }
 }

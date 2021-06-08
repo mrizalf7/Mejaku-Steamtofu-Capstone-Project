@@ -16,33 +16,6 @@ import com.steamtofu.mejaku.ui.classes.CreateClassActivity
 import com.steamtofu.mejaku.databinding.ActivityMainBinding
 import com.steamtofu.mejaku.viewmodel.ViewModelFactory
 
-//class MainActivity : AppCompatActivity(), View.OnClickListener {
-//
-//    private lateinit var binding: ActivityMainBinding
-//
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        binding = ActivityMainBinding.inflate(layoutInflater)
-//        setContentView(binding.root)
-//
-//        binding.fabCreateClass.setOnClickListener(this)
-//    }
-//
-//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-//        menuInflater.inflate(R.menu.option_menu, menu)
-//        return super.onCreateOptionsMenu(menu)
-//    }
-//
-//    override fun onClick(v: View) {
-//        when(v.id){
-//            R.id.fab_create_class -> {
-//                val intent = Intent(this, CreateClassActivity::class.java)
-//                startActivity(intent)
-//            }
-//        }
-//    }
-//}
-
 class MainActivity : AppCompatActivity() {
 
     private var _activityMainBinding: ActivityMainBinding? = null
@@ -80,7 +53,6 @@ class MainActivity : AppCompatActivity() {
     }
     private val classObserver = Observer<PagedList<Classes>> { classList ->
         if (classList != null) {
-//            adapter.setListClasses(classList)
             adapter.submitList(classList)
 
         }

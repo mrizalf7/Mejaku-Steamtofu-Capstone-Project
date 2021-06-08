@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
+//import androidx.activity.result.contract.ActivityResultContracts
 import com.steamtofu.mejaku.R
 import com.steamtofu.mejaku.databinding.ActivityUploadScoreBinding
 
@@ -20,7 +21,6 @@ class UploadScoreActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.btnChooseFile.setOnClickListener(this)
         binding.btnUpload.setOnClickListener(this)
-
     }
 
     // using uri path to do something here

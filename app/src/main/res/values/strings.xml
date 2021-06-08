@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Mejaku</string>
-    <string name="log_out">Log out</string>
+    <string name="menu">Menu</string>
     <string name="class_dummy">SCIENCE CLASS BG-234</string>
     <string name="create_class">Create Class</string>
     <string name="home">Home</string>
@@ -9,5 +9,42 @@
     <string name="choose_file">Choose File</string>
     <string name="guide_choose_file">*csv file must containing student name, email and parent email</string>
     <string name="guide_upload">Select csv file containing scores to be uploaded</string>
+    <string name="delete">Delete</string>
+
+
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="submit">Submit</string>
+    <string name="date">Date</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="empty">Field can not be blank</string>
+    <string name="update">Update</string>
+    <string name="change">Edit</string>
+    <string name="add">Add</string>
+    <string name="save">Simpan</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan perubahan pada form?</string>
+    <string name="message_delete">Are you sure want to delete this class?</string>
+    <string name="added">Satu item berhasil ditambahkan</string>
+    <string name="changed">Satu item berhasil diubah</string>
+    <string name="deleted">Satu item berhasil dihapus</string>
+    <string name="predict_by_yourself">PredictByYourself</string>
+    <string name="text_predict_by_yourself">Predict By Yourself</string>
+    <string name="text_create_class">Create Classes</string>
+    <string name="item_class">Item Class</string>
+    <string name="imgViewPredict">imgViewPredict</string>
+    <string name="quiz_text_view">Quiz</string>
+    <string name="assignment1_text_view">Assignment 1</string>
+    <string name="assisgnment2_text_view">Assignment 2</string>
+    <string name="assignment3_text_view">Assignment 3</string>
+    <string name="predict">Predict</string>
+    <string name="predict_score_tools">Predict Score:XXX</string>
+    <string name="predict_score">Predict Score:%s</string>
     <string name="upload">Upload</string>
+    <string name="edit">Edit</string>
+
+
 </resources>

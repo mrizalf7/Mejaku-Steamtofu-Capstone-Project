@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.ui.classes
+package com.steamtofu.mejamu.ui.classes
 
 
 import android.os.Bundle
@@ -7,11 +7,11 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.steamtofu.mejaku.R
-import com.steamtofu.mejaku.database.Classes
-import com.steamtofu.mejaku.databinding.ActivityCreateClassBinding
-import com.steamtofu.mejaku.helper.DateHelper
-import com.steamtofu.mejaku.viewmodel.ViewModelFactory
+import com.steamtofu.mejamu.R
+import com.steamtofu.mejamu.database.Classes
+import com.steamtofu.mejamu.databinding.ActivityCreateClassBinding
+import com.steamtofu.mejamu.helper.DateHelper
+import com.steamtofu.mejamu.viewmodel.ViewModelFactory
 
 
 

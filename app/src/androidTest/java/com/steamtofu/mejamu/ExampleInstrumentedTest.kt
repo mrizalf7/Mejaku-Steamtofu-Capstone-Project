@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku
+package com.steamtofu.mejamu
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

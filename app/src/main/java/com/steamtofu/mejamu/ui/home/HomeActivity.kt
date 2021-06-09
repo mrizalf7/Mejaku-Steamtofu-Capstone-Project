@@ -1,14 +1,13 @@
-package com.steamtofu.mejaku.ui.home
+package com.steamtofu.mejamu.ui.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import com.steamtofu.mejaku.R
-import com.steamtofu.mejaku.databinding.ActivityCreateClassBinding
-import com.steamtofu.mejaku.databinding.ActivityHomeBinding
-import com.steamtofu.mejaku.ui.main.MainActivity
-import com.steamtofu.mejaku.ui.predict.PredictByYourselfActivity
+import com.steamtofu.mejamu.R
+import com.steamtofu.mejamu.databinding.ActivityHomeBinding
+import com.steamtofu.mejamu.ui.main.MainActivity
+import com.steamtofu.mejamu.ui.predict.PredictByYourselfActivity
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var _activityHomeBinding:ActivityHomeBinding

@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.helper
+package com.steamtofu.mejamu.helper
 
 import java.text.SimpleDateFormat
 import java.util.*

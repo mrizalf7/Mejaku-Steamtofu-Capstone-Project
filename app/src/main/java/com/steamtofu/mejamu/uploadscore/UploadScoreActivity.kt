@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.uploadscore
+package com.steamtofu.mejamu.uploadscore
 
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +7,8 @@ import android.util.Log
 import android.view.Menu
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
-import com.steamtofu.mejaku.R
-import com.steamtofu.mejaku.databinding.ActivityUploadScoreBinding
+import com.steamtofu.mejamu.R
+import com.steamtofu.mejamu.databinding.ActivityUploadScoreBinding
 
 class UploadScoreActivity : AppCompatActivity(), View.OnClickListener {
 

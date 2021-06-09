@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.ui.main
+package com.steamtofu.mejamu.ui.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -10,11 +10,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.paging.PagedList
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import com.steamtofu.mejaku.R
-import com.steamtofu.mejaku.database.Classes
-import com.steamtofu.mejaku.ui.classes.CreateClassActivity
-import com.steamtofu.mejaku.databinding.ActivityMainBinding
-import com.steamtofu.mejaku.viewmodel.ViewModelFactory
+import com.steamtofu.mejamu.R
+import com.steamtofu.mejamu.database.Classes
+import com.steamtofu.mejamu.ui.classes.CreateClassActivity
+import com.steamtofu.mejamu.databinding.ActivityMainBinding
+import com.steamtofu.mejamu.viewmodel.ViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 

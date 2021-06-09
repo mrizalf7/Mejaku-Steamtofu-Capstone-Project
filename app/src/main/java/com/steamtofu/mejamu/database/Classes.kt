@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.database
+package com.steamtofu.mejamu.database
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

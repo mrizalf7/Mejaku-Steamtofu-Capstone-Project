@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.ui.predict
+package com.steamtofu.mejamu.ui.predict
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -7,8 +7,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.steamtofu.mejaku.R
-import com.steamtofu.mejaku.databinding.ActivityPredictByYourselfBinding
+import com.steamtofu.mejamu.R
+import com.steamtofu.mejamu.databinding.ActivityPredictByYourselfBinding
 import org.tensorflow.lite.Interpreter
 import java.io.FileInputStream
 import java.io.IOException
@@ -78,11 +78,10 @@ class PredictByYourselfActivity : AppCompatActivity() {
                         else->{
                             val prediction = doInterference(quiz,assignment1,
                                 assignment2,assignment3)
-                            predictResult.text =resources.getString(R.string.predict_score,prediction.toString())
+                            predictResult.text =resources.getString(R.string.predict_score,prediction.toInt().toString())
                         }
                     }
-
-
+                    
                 }
     }
 

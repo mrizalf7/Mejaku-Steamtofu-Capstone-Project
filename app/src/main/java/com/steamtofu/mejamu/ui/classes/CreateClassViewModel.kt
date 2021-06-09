@@ -1,9 +1,9 @@
-package com.steamtofu.mejaku.ui.classes
+package com.steamtofu.mejamu.ui.classes
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
-import com.steamtofu.mejaku.database.Classes
-import com.steamtofu.mejaku.repository.ClassesRepository
+import com.steamtofu.mejamu.database.Classes
+import com.steamtofu.mejamu.repository.ClassesRepository
 
 class CreateClassViewModel(application: Application): ViewModel() {
 

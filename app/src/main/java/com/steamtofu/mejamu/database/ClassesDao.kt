@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.database
+package com.steamtofu.mejamu.database
 
 
 import androidx.paging.DataSource

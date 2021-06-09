@@ -1,10 +1,10 @@
-package com.steamtofu.mejaku.viewmodel
+package com.steamtofu.mejamu.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.steamtofu.mejaku.ui.classes.CreateClassViewModel
-import com.steamtofu.mejaku.ui.main.MainViewModel
+import com.steamtofu.mejamu.ui.classes.CreateClassViewModel
+import com.steamtofu.mejamu.ui.main.MainViewModel
 
 class ViewModelFactory private constructor(private val mApplication: Application) : ViewModelProvider.NewInstanceFactory() {
     companion object {

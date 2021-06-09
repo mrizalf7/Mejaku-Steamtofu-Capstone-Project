@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.ui.main
+package com.steamtofu.mejamu.ui.main
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -8,11 +8,10 @@ import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.steamtofu.mejaku.database.Classes
-import com.steamtofu.mejaku.databinding.ItemClassRowBinding
-import com.steamtofu.mejaku.helper.ClassesDiffCallback
-import com.steamtofu.mejaku.ui.classes.CreateClassActivity
-import com.steamtofu.mejaku.uploadscore.UploadScoreActivity
+import com.steamtofu.mejamu.database.Classes
+import com.steamtofu.mejamu.databinding.ItemClassRowBinding
+import com.steamtofu.mejamu.ui.classes.CreateClassActivity
+import com.steamtofu.mejamu.uploadscore.UploadScoreActivity
 
 class ClassesAdapter(private val activity:Activity): PagedListAdapter<Classes, ClassesAdapter.ClassesViewHolder>(
     DIFF_CALLBACK) {
@@ -49,7 +48,7 @@ class ClassesAdapter(private val activity:Activity): PagedListAdapter<Classes, C
                     activity.startActivityForResult(intent,CreateClassActivity.REQUEST_UPDATE)
                 }
                 btnUpload.setOnClickListener {
-                    val intent = Intent(activity,UploadScoreActivity::class.java)
+                    val intent = Intent(activity, UploadScoreActivity::class.java)
                     activity.startActivity(intent)
                 }
             }

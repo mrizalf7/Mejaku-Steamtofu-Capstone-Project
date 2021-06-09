@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.steamtofu.mejaku">
+    package="com.steamtofu.mejamu">
 
     <application
         android:allowBackup="true"
@@ -9,20 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mejaku">
-        <activity android:name=".ui.predict.PredictByYourselfActivity"></activity>
-        <activity android:name=".ui.home.HomeActivity">
+        <activity android:name="com.steamtofu.mejamu.ui.predict.PredictByYourselfActivity"></activity>
+        <activity android:name="com.steamtofu.mejamu.ui.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".uploadscore.UploadScoreActivity" />
+        <activity android:name="com.steamtofu.mejamu.uploadscore.UploadScoreActivity" />
         <activity
-            android:name=".ui.classes.CreateClassActivity"
+            android:name="com.steamtofu.mejamu.ui.classes.CreateClassActivity"
             android:label="@string/create_class" />
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.steamtofu.mejamu.ui.main.MainActivity"
             android:label="@string/home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

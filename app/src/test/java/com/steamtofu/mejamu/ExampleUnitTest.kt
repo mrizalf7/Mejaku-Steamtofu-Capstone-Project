@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku
+package com.steamtofu.mejamu
 
 import org.junit.Test
 

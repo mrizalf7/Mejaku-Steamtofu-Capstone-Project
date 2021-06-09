@@ -1,4 +1,4 @@
-package com.steamtofu.mejaku.database
+package com.steamtofu.mejamu.database
 
 import android.content.Context
 import androidx.room.Database

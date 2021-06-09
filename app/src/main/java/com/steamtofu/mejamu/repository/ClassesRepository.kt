@@ -1,11 +1,10 @@
-package com.steamtofu.mejaku.repository
+package com.steamtofu.mejamu.repository
 
 import android.app.Application
-import androidx.lifecycle.LiveData
 import androidx.paging.DataSource
-import com.steamtofu.mejaku.database.Classes
-import com.steamtofu.mejaku.database.ClassesDao
-import com.steamtofu.mejaku.database.ClassesRoomDatabase
+import com.steamtofu.mejamu.database.Classes
+import com.steamtofu.mejamu.database.ClassesDao
+import com.steamtofu.mejamu.database.ClassesRoomDatabase
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

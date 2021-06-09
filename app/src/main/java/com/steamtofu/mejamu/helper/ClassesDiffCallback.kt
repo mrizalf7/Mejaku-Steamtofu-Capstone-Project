@@ -1,7 +1,7 @@
-package com.steamtofu.mejaku.helper
+package com.steamtofu.mejamu.helper
 
 import androidx.recyclerview.widget.DiffUtil
-import com.steamtofu.mejaku.database.Classes
+import com.steamtofu.mejamu.database.Classes
 
 class ClassesDiffCallback(private val mOldClassesList: List<Classes>, private val mNewClassesList: List<Classes>) : DiffUtil.Callback() {
     override fun getOldListSize(): Int {

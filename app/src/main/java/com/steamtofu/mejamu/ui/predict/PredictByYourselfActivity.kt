@@ -81,7 +81,7 @@ class PredictByYourselfActivity : AppCompatActivity() {
                             predictResult.text =resources.getString(R.string.predict_score,prediction.toInt().toString())
                         }
                     }
-                    
+
                 }
     }
 

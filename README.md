@@ -2,7 +2,7 @@
 
 **Home:**
 
-<img src="https://raw.githubusercontent.com/mrizalf7/Mejamu-Steamtofu-Capstone-Project/main/screenshots/ss1.png width="250">
+<img src="https://raw.githubusercontent.com/mrizalf7/Mejamu-Steamtofu-Capstone-Project/main/screenshots/ss1.png" width="250">
 
 **Predict by Yourself(Offline):** 
 
